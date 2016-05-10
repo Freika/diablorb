@@ -17,23 +17,35 @@ And then execute:
 ### Required environment variables
 
 `BATTLE_NET_KEY` — key from here: https://dev.battle.net/apps/mykeys
-`BATTLE_NET_REGION` — one of availeble regions: `us`, `eu`, `kr` or `tw`
+
+`BATTLE_NET_REGION` — one of available regions: `us`, `eu`, `kr` or `tw`
+
 `BATTLE_NET_LOCALE` — one of available locales.
 
-####Locales by regions:
+I recommend to use [figaro](https://github.com/laserlemon/figaro) or [dot_env](https://github.com/bkeepers/dotenv) gem for managing environment variables.
+
+#### Locales by regions
 
 EU: `en_GB`, `de_DE`, `es_ES`, `fr_FR`, `it_IT`, `pl_PL`, `pt_PT`, `ru_RU`
+
 US: `en_US`, `pt_BR`, `es_MX`
+
 KR: `ko_KR`
+
 TW: `zh_TW`
 
 ## Usage
 
 `Diablorb.profile(battletag)` returns profile information.
+
 `Diablorb.hero(battletag, hero_id)` returns hero information.
+
 `Diablorb.item_data(item_name)` returns item information.
+
 `Diablorb.follower_data(follower_class)` returns follower information.
+
 `Diablorb.artisan_data(artisan_name)` returns artisan information.
+
 
 ## Contributing
 
